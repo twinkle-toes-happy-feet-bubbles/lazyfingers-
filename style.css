@@ -1,0 +1,128 @@
+body{
+  margin: 0;
+  padding: 5px;
+  border: none;
+  background: #000000;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#mainNav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+#subNav {
+  float: left;
+}
+
+#subNav a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px 16px;
+  color: whitesmoke;
+}
+
+.button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: black; 
+  color: white; 
+  border: 2px solid #9BFF81;
+}
+
+.button2{
+  background-color: black;
+  color: white;
+  border: 2px solid #818CFF;
+}
+
+.button3{
+  background-color: black;
+  color: white;
+  border: 2px solid #D381FF;
+}
+
+.button4{
+  background-color: black;
+  color: white;
+  border: 2px solid #FF8181;
+}
+
+.button5{
+  background-color: black;
+  color: white;
+  border: 2px solid #FFE781;
+}
+
+.dot{
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #FF0202DE;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+/*
+#lazyFinger{
+  color: yellow;
+  
+  width: 150px;
+  height: 60px;
+  border-radius: 2em;
+}
+*/
+
+#lazyFinger {
+  opacity: 1;
+  transition: opacity 1s;
+  background: #0000005E;
+}
+
+#lazyFinger.fade {
+  opacity: 0;
+}
+
+.formbox{
+  width: 15em;
+  height: 20em;
+  border: 1px solid white;
+  position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+  padding: 20px;
+}
+
+
+input{
+  color: white;
+  padding: 5px;
+}
+
+img{
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 270px;
+}
+
